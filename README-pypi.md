@@ -9,7 +9,7 @@ This program monitors running processes and highlights information about their c
 
 ### A screen shot
 
-![](a_screen_shot.png)
+![](https://github.com/tos-kamiyaprocess-life-and-death-monitor/blob/main/a_screen_shot.png?raw=True)
 
 ## Installation
 
