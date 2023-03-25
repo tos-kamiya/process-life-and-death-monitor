@@ -3,11 +3,15 @@ process-life-and-death-monitor
 
 This program monitors running processes and highlights information about their creation and termination.
 
+* Displays a list of processes that have command names or arguments or current directory that match the specified `query`.
+* The display is refreshed at regular intervals,
+* with newly created processes in blue and terminated processes in red.
+
+### A screen shot
+
 ![](a_screen_shot.png)
 
 ## Installation
-
-Installation
 
 You can install the tool using pip:
 
@@ -25,13 +29,13 @@ process-life-and-death-monitor [-i INTERVAL] [-l DURATION] [-x CMDNAME]... query
 
 ### Command-line arguments and options
 
-`-i --interval INTERVAL`:
+`-i --interval INTERVAL`
   set the interval between checks (in seconds), default is 0.5
 
-`-l --highlight DURATION`:
+`-l --highlight DURATION`
   set the duration to highlight the results (in seconds), default is 3.0
 
-`-x --cmd-exclude CMDNAME`:
+`-x --cmd-exclude CMDNAME`
   add a command name to ignore
 
 `query`:
