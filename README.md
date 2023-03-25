@@ -7,16 +7,18 @@ This program monitors running processes and highlights information about their c
 * The display is refreshed at regular intervals,
 * with newly created processes in blue and terminated processes in red.
 
-### A screen shot
-
-![](a_screen_shot.png)
-
 ## Installation
 
 You can install the tool using pip:
 
 ```sh
 pip install process-life-and-death-monitor
+```
+
+Or
+
+```sh
+pip install git+https://github.com/tos-kamiya/process-life-and-death-monitor
 ```
 
 To uninstall:
@@ -60,6 +62,16 @@ To exclude processes that contain the word "grep", run the following command.
 ```sh
 process-life-and-death-monitor -x "grep" "python"
 ```
+
+### Screenshots
+
+In gnome terminal on Linux Mint
+
+![](screenshot_linux.png)
+
+In cmd.exe on Windows
+
+![](screenshot_windows.png)
 
 ## License
 

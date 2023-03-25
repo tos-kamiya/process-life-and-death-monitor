@@ -7,7 +7,7 @@ This program monitors running processes and highlights information about their c
 * The display is refreshed at regular intervals,
 * with newly created processes in blue and terminated processes in red.
 
-### A screen shot
+### Screenshot
 
 ![](https://github.com/tos-kamiya/process-life-and-death-monitor/blob/main/a_screen_shot.png?raw=True)
 
@@ -17,6 +17,12 @@ You can install the tool using pip:
 
 ```sh
 pip install process-life-and-death-monitor
+```
+
+Or
+
+```sh
+pip install git+https://github.com/tos-kamiya/process-life-and-death-monitor
 ```
 
 To uninstall:
